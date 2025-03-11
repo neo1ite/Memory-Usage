@@ -116,7 +116,7 @@ sub report
 {
 	my ($self) = @_;
 
-	my $report = sprintf "%6s %6s (%6s) %6s (%6s) %6s (%6s) %6s (%6s) %6s (%6s)\n",
+	my $report = sprintf "%8s %8s (%8s) %8s (%8s) %8s (%8s) %8s (%8s) %8s (%8s)\n",
 		'time',
 		'vsz',
 		'diff',
@@ -131,7 +131,7 @@ sub report
 
 	my $prev = [ undef, undef, 0, 0, 0, 0, 0 ];
 	foreach (@$self) {
-		$report .= sprintf "% 6d % 6d (% 6d) % 6d (% 6d) % 6d (% 6d) % 6d (% 6d) % 6d (% 6d) %s\n",
+		$report .= sprintf "% 8d % 8d (% 8d) % 8d (% 8d) % 8d (% 8d) % 8d (% 8d) % 8d (% 8d) %s\n",
 			($_->[0] - $self->[0][0]),
 			$_->[2],
 			($_->[2] - $prev->[2]),
