@@ -1,6 +1,10 @@
 Revision history for Memory-Usage
 
-0.201   Wed, 07 Jul 2010 14:27:16 -0400	(dmo)
+0.202	Thu, 11 Mar 2025 15:51:10 +0300	(svk)
+
+	Increase size of frames in the report template.
+
+0.201	Wed, 07 Jul 2010 14:27:16 -0400	(dmo)
 
 	Extend recording of usage to consider shared, code, and data segments
 	in addition to rss and vsz.
@@ -13,4 +17,3 @@ Revision history for Memory-Usage
 
 0.100	Thu, 01 Apr 2010 10:48:36 -0400 (dmo)
         First version, released on an unsuspecting world.
-
