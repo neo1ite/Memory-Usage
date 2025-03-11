@@ -11,10 +11,12 @@ inc/Module/Install/WriteAll.pm
 lib/Memory/Usage.pm
 Makefile.PL
 MANIFEST
+MANIFEST.SKIP
 META.yml
 README
 script/module-size
 t/00-load.t
+t/basic.t
 t/manifest.t
 t/pod-coverage.t
 t/pod.t
